@@ -28,10 +28,12 @@ Sau đó , dùng lệnh “ ls “ , ta sẽ thấy file nén :
 
 Giải nén bằng câu lệnh : tar xf gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf.tar.xz
 
+ls tiếp ta sẽ thấy file được giải nén : 
+<img width="624" height="76" alt="image" src="https://github.com/user-attachments/assets/3ab7a049-1540-4f53-a3f6-96e83a3d4e4e" />
 
+Sau đấy xóa cái file nén cũ đi cho đỡ nặng máy nhé (lệnh cho đỡ lười này ) : rm gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf.tar.xz ( thêm -rf cũng được ) .
 
-
-
+Sau đó bắt buộc : export CC=`pwd`/gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf- rồi check version : ${CC}gcc --version 
 
 
 
