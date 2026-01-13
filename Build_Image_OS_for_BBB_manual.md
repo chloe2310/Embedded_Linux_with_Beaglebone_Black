@@ -35,6 +35,13 @@ Sau đấy xóa cái file nén cũ đi cho đỡ nặng máy nhé (lệnh cho đ
 
 Sau đó bắt buộc : export CC=`pwd`/gcc-linaro-6.5.0-2018.12-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf- rồi check version : ${CC}gcc --version 
 
+2 ,Bootloader  
+Đầu tiên ,  Clone Uboot từ mainline bằng lệnh : 
+git clone -b v2019.04 https://github.com/u-boot/u-boot --depth=1
+<img width="624" height="370" alt="image" src="https://github.com/user-attachments/assets/e0b421fa-4f8d-4ae0-bd62-2b8beb62840f" />
+
+Kết quả: mình sẽ có source U-Boot gốc (mainline) tại thư mục u-boot/, đúng version 2019.04.
+
 
 
 
