@@ -119,7 +119,7 @@ sudo dd if=./u-boot/MLO of=${DISK} count=1 seek=1 bs=128k
 sudo dd if=./u-boot/u-boot.img of=${DISK} count=2 seek=1 bs=384k
 sudo sfdisk ${DISK} <<__EOF__
 4M,,L,*
-__EOF__
+_EOF_
 sudo mkfs.ext4 -L rootfs -O ^metadata_csum,^64bit ${DISK}1
 #write data to sdcard
 sudo mkdir -p /media/rootfs/
