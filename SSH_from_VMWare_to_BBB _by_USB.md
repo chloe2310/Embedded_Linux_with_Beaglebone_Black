@@ -1,6 +1,7 @@
 CÁCH SSH TỪ MÁY ẢO VMWARE VÀO BBB BẰNG CỔNG USB
 
 Sau khi đã cắm boot thẻ sd xuống BBB rồi nhé , và lúc boot chắc bạn cũng biết rồi ( nhấn giữ S2 và cắm nguồn vào ) 
+![Uploading anh1.png…]()
 
 
 
